@@ -32,6 +32,7 @@ function saveLayout(){
 	if (supportstorage()) {
 		localStorage.setItem("layoutdata",JSON.stringify(data));
 	}
+	debugger;
 	layouthistory = data;
 	//console.log(data);
 	/*$.ajax({  
